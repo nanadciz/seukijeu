@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stray Kids</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/font/awesome/5.14.0/css.all.min.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <!-- <link rel="stylesheet" href="../style/style.css" /> -->
+
+  <body>
+    <header>
+      <a href="index.html" class="brand"
+      ><img src="../images/skz-hitam.jpg" alt="skz"
+    /></a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-item">
+        <a href="about.html" target="_blank">About</a>
+        <a href="profile.html" target="_blank">Profile</a>
+        <a href="gallery.html">Gallery</a>
+          <a href="store.html">Store</a>
+      </div>
+    </div>
+        </header>
+   
+      <section class="about">
+        <div class="main">
+          <img src="../images/foto_about.jpg" alt="skz" />
+          <div class="all-text">
+            <h2>About Stray Kids</h2>
+            <p>
+              Stray Kids (스트레이 키즈) is a South Korean boy group under JYP
+              Entertainment. The group consists of 8 members: Bang Chan, Lee Know,
+              Changbin, Hyunjin, Han, Felix, Seungmin, and I.N. <br /><br />
+              They debuted on March 25, 2018. The group was created through the
+              survival program with the same name, Stray Kids. As of February
+              10th, 2022, they are also signed under Republic Records.
+              <br />
+              <!-- Current Dorm Arrangement (updated in Dec.2021): <br />Dorm 1: Han,
+              Changbin, Hyunjin and Bang Chan (single rooms)<br />
+              Dorm 2: Felix, Lee Know, Seungmin and I.N (single rooms) -->
+            </p>
+            <button type="button">NOTICE</button>
+            <button type="button">CONTACT</button>
+          </div>
+        </div>
+          <div class="media_icons">
+        <a href="https://www.youtube.com/@StrayKids" target="#"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://www.instagram.com/realstraykids/" target="#"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/Stray_Kids?s=20" target="#"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/JYPEStrayKids?_rdc=1&_rdr" target="#"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+    </section>
+
+    <script type="text/javascript">
+      // Responsive header
+      //Javascript of responsive navigation menu
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation");
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+      });
+
+    </script>
+  </body>
+</html>
